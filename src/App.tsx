@@ -126,11 +126,10 @@ export default function App() {
           <HadithShowcase theme={theme} />
           <AgendaEvents theme={theme} />
         </div>
+
+        <Footer theme={theme} />
       </main>
 
-      <Footer theme={theme} />
-
-      {/* Back to top */}
       <motion.button
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
