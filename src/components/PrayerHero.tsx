@@ -80,7 +80,7 @@ export function PrayerHero({
               Waktu setempat · {city}
             </p>
             <div className="mt-1 flex items-end gap-3">
-              <span className="font-display text-5xl md:text-6xl font-semibold tabular-nums lining-nums tracking-tight">
+              <span className="font-display text-6xl md:text-7xl lg:text-8xl font-semibold tabular-nums lining-nums tracking-tight">
                 {clock}
               </span>
               <span className="mb-2 hidden sm:inline-flex chip bg-white/15 text-white ring-1 ring-white/25">

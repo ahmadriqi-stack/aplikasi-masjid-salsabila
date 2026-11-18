@@ -69,7 +69,7 @@ export function PrayerSchedule({ theme, schedule, status, sourceLabel, now }: Pr
         </div>
       </div>
 
-      <div ref={ref} className={`mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 reveal ${visible ? 'is-visible' : ''}`}>
+      <div ref={ref} className={`mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-3 reveal ${visible ? 'is-visible' : ''}`}>
         {schedule.times.map((p, i) => {
           const Icon = ICONS[p.key]
           const isNext = next?.key === p.key
